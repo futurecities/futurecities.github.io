@@ -1655,7 +1655,7 @@
 		#signup-form input[type="text"],
 		#signup-form input[type="password"],
 		#signup-form input[type="email"] {
-			width: 50%;
+			width: 70%;
 		}
 
 		#signup-form > * {
@@ -1678,7 +1678,7 @@
 				#signup-form input[type="type"],
 				#signup-form input[type="password"],
 				#signup-form input[type="email"] {
-					width: 50%;
+					width: 70%;
 				}
 
 				
@@ -2255,6 +2255,7 @@
 	::-webkit-input-placeholder {
 		opacity: 1.0;
 		color: white !important;
+		text-align: left
 	}
 
 	:-moz-placeholder {
@@ -3576,22 +3577,27 @@
 
 		#main ::-webkit-input-placeholder {
 			color: white !important;
+			text-align: left;
 		}
 
 		#main :-moz-placeholder {
 			color: white !important;
+			text-align: left;
 		}
 
 		#main ::-moz-placeholder {
 			color: white !important;
+			text-align: left;
 		}
 
 		#main :-ms-input-placeholder {
 			color: white !important;
+			text-align: left;
 		}
 
 		#main .formerize-placeholder {
 			color: white !important;
+			text-align: left;
 		}
 
 		#main .icon.major {
