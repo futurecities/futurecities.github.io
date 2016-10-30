@@ -1651,8 +1651,6 @@
 		position: relative;
 	}
 
-	
-	
 
 		#signup-form input[type="text"],
 		#signup-form input[type="password"],
@@ -2138,7 +2136,7 @@
 		outline: 0;
 		padding: 0 1em;
 		text-decoration: none;
-		width: 100%;
+		width: 10%;
 	}
 
 		input[type="text"]:invalid,
@@ -2258,22 +2256,27 @@
 
 	::-webkit-input-placeholder {
 		opacity: 1.0;
+		color: white !important;
 	}
 
 	:-moz-placeholder {
 		opacity: 1.0;
+		color: white !important;
 	}
 
 	::-moz-placeholder {
 		opacity: 1.0;
+		color: white !important;
 	}
 
 	:-ms-input-placeholder {
 		opacity: 1.0;
+		color: white !important;
 	}
 
 	.formerize-placeholder {
 		opacity: 1.0;
+		color: white !important;
 	}
 
 	label {
@@ -2327,23 +2330,23 @@
 	}
 
 	::-webkit-input-placeholder {
-		color: red !important;
+		color: white !important;
 	}
 
 	:-moz-placeholder {
-		color: rgba(255, 255, 255, 0.5) !important;
+		color: white !important;
 	}
 
 	::-moz-placeholder {
-		color: rgba(255, 255, 255, 0.5) !important;
+		color: white !important;
 	}
 
 	:-ms-input-placeholder {
-		color: rgba(255, 255, 255, 0.5) !important;
+		color: white !important;
 	}
 
 	.formerize-placeholder {
-		color: rgba(255, 255, 255, 0.5) !important;
+		color: white !important;
 	}
 
 /* Icon */
