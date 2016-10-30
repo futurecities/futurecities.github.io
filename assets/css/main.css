@@ -1641,6 +1641,67 @@
 			transition: none !important;
 		}
 
+/* Signup Form */
+
+	#signup-form {
+		display: -moz-flex;
+		display: -webkit-flex;
+		display: -ms-flex;
+		display: flex;
+		position: relative;
+	}
+
+	
+	
+
+		#signup-form input[type="text"],
+		#signup-form input[type="password"],
+		#signup-form input[type="email"] {
+			width: 18em;
+		}
+
+		#signup-form > * {
+			margin: 0 0 0 1em;
+		}
+
+		#signup-form > :first-child {
+			margin: 0 0 0 0;
+		}
+
+		@media screen and (max-width: 480px) {
+
+			#signup-form {
+				-moz-flex-direction: column;
+				-webkit-flex-direction: column;
+				-ms-flex-direction: column;
+				flex-direction: column;
+			}
+
+				#signup-form input[type="type"],
+				#signup-form input[type="password"],
+				#signup-form input[type="email"] {
+					width: 100%;
+				}
+
+				#signup-form > * {
+					margin: 1.25em 0 0 0;
+				}
+
+				#signup-form .message {
+					bottom: -1.5em;
+					font-size: 0.9em;
+					height: 1em;
+					left: 0;
+					line-height: inherit;
+					margin-top: 0;
+					position: absolute;
+				}
+
+		}
+
+
+
+
 /* Type */
 
 	body {
@@ -2072,7 +2133,7 @@
 		appearance: none;
 		border-radius: 8px;
 		border: solid 1px;
-		color: inherit;
+		color: white;
 		display: block;
 		outline: 0;
 		padding: 0 1em;
@@ -2266,7 +2327,7 @@
 	}
 
 	::-webkit-input-placeholder {
-		color: rgba(255, 255, 255, 0.5) !important;
+		color: red !important;
 	}
 
 	:-moz-placeholder {
@@ -3513,23 +3574,23 @@
 		}
 
 		#main ::-webkit-input-placeholder {
-			color: rgba(99, 99, 99, 0.25) !important;
+			color: white !important;
 		}
 
 		#main :-moz-placeholder {
-			color: rgba(99, 99, 99, 0.25) !important;
+			color: white !important;
 		}
 
 		#main ::-moz-placeholder {
-			color: rgba(99, 99, 99, 0.25) !important;
+			color: white !important;
 		}
 
 		#main :-ms-input-placeholder {
-			color: rgba(99, 99, 99, 0.25) !important;
+			color: white !important;
 		}
 
 		#main .formerize-placeholder {
-			color: rgba(99, 99, 99, 0.25) !important;
+			color: white !important;
 		}
 
 		#main .icon.major {
