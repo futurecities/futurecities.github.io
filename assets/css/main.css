@@ -1656,6 +1656,7 @@
 		#signup-form input[type="password"],
 		#signup-form input[type="email"] {
 			width: 70%;
+			float:left;
 		}
 
 		#signup-form > * {
@@ -1669,16 +1670,17 @@
 		@media screen and (max-width: 480px) {
 
 			#signup-form {
-				-moz-flex-direction: row;
-				-webkit-flex-direction: row;
-				-ms-flex-direction: row;
-				flex-direction: row;
+				-moz-flex-direction: column;
+				-webkit-flex-direction: column;
+				-ms-flex-direction: column;
+				flex-direction: column;
 			}
 
 				#signup-form input[type="type"],
 				#signup-form input[type="password"],
 				#signup-form input[type="email"] {
 					width: 70%;
+
 				}
 
 				
