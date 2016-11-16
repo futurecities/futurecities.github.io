@@ -1647,7 +1647,7 @@
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
-		display: flex;
+		display: inline-flex;
 		position: relative;
 	}
 
