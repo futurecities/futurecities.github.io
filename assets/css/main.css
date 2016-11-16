@@ -1656,7 +1656,6 @@
 		#signup-form input[type="password"],
 		#signup-form input[type="email"] {
 			width: 70%;
-			float:left;
 		}
 
 		#signup-form > * {
